@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1462113158}
   - component: {fileID: 1462113153}
   - component: {fileID: 1462113157}
+  - component: {fileID: 1081947099}
   m_Layer: 0
   m_Name: Pot
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2097465267
   m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -6758789238592231902, guid: 1439ce57cb005594ab397288f7781e0e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -164,3 +165,20 @@ MonoBehaviour:
   _soundHit: {fileID: 8300000, guid: ed92ba69125243646a4e9c4a115a3cd5, type: 3}
   _soundExplode: {fileID: 8300000, guid: 252d0218d70f37d44901592e5c127f77, type: 3}
   _disableWhenDie: 1
+--- !u!114 &1081947099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5669456352983589936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ec931bd8cf47348530f9a11d8ed15a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _chanceToLoot: 90
+  _chanceItemToLoot:
+  - {fileID: 7965292846039863721, guid: 8679b0392f9b2e54e8b72ca2637fa4b6, type: 3}
+  - {fileID: 5944257534013775820, guid: 0369a639170dcf5478b943f11ea2cef5, type: 3}
+  ItemToLoot: {fileID: 0}

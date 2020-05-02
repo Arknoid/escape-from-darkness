@@ -15,46 +15,49 @@ namespace Player
         public int SilverKeys
         {
             get => _silverKeys;
-            set => _silverKeys = value;
+            set => _silverKeys = value <= 0 ? 0 : value;
         }
 
         public int GoldKeys
         {
             get => _goldKeys;
-            set => _goldKeys = value;
+            set => _goldKeys = value <= 0 ? 0 : value;
         }
 
         public int Woods
         {
             get => _woods;
-            set => _woods = value;
+            set => _woods = value <= 0 ? 0 : value;
         }
 
         public int Golds
         {
             get => _golds;
-            set => _golds = value;
+            set => _golds  = value <= 0 ? 0 : value;
         }
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            Debug.Log("collider");
             switch (other.tag)
             {
                 case "Item Silver Key" :
                     SilverKeys++;
-                    Destroy(other.gameObject);
+                    other.GetComponent<Collider2D>().enabled = false;
+                    Destroy(other.gameObject,0.3f);
                     break;
                 case "Item Gold Key" :
                     GoldKeys++;
-                    Destroy(other.gameObject);
+                    other.GetComponent<Collider2D>().enabled = false;
+                    Destroy(other.gameObject,0.3f);
                     break;
                 case "Item Wood" :
-                    Destroy(other.gameObject);
+                    other.GetComponent<Collider2D>().enabled = false;
+                    Destroy(other.gameObject,0.3f);
                     Woods++;
                     break;
-                case "Item Gold" :
-                    Destroy(other.gameObject);
+                case "item Gold" :
+                    other.GetComponent<Collider2D>().enabled = false;
+                    Destroy(other.gameObject,0.3f);
                     Golds++;
                     break;
             }

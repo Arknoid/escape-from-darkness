@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 5944257534013775815}
   - component: {fileID: 5944257534013775808}
   - component: {fileID: 5944257534013775814}
+  - component: {fileID: 1212784897}
+  - component: {fileID: 1212784904}
   m_Layer: 0
   m_Name: Spider
   m_TagString: Untagged
@@ -71,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -2140623365
-  m_SortingLayer: 3
+  m_SortingLayerID: -2097465267
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 5376646307960564450, guid: 14a9109a9d833d347803de97c0409635,
     type: 3}
@@ -118,10 +120,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0266397, y: -0.7216899}
+  m_Offset: {x: -0.0266397, y: 0.27505738}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 2, y: 2}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
@@ -129,7 +131,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6583352, y: 0.55662024}
+  m_Size: {x: 0.6583352, y: 0.5249778}
   m_EdgeRadius: 0
 --- !u!50 &5944257534013775808
 Rigidbody2D:
@@ -167,3 +169,36 @@ MonoBehaviour:
   sortingOrderBase: 5000
   offset: 0
   runOnlyOnce: 0
+--- !u!114 &1212784897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5944257534013775820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c727b701953d4059b5fd5418beae3a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: 4
+  _animatorTriggerHit: hit
+  _animatorTriggerExplode: die
+  _soundHit: {fileID: 0}
+  _soundExplode: {fileID: 0}
+  _disableWhenDie: 1
+--- !u!114 &1212784904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5944257534013775820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa940a052c1b8f43b024d30be9bd880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetTag: Player
+  _damage: 1
+  _speed: 1

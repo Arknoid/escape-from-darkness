@@ -33,6 +33,9 @@
           </e>
           <e p="Objects" t="Include">
             <e p="Door.cs" t="Include" />
+            <e p="LavaFountain.cs" t="Include" />
+            <e p="Loot.cs" t="Include" />
+            <e p="LootsOneInChildren.cs" t="Include" />
           </e>
           <e p="Patterns" t="Include">
             <e p="MonoSingleton.cs" t="Include" />
@@ -40,6 +43,7 @@
           <e p="Player" t="Include">
             <e p="PlayerInput.cs" t="Include" />
             <e p="PlayerItems.cs" t="Include" />
+            <e p="PlayerLights.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
             <e p="PlayerWeapon.cs" t="Include" />
           </e>

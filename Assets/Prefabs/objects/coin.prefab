@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7385114997181286580
+--- !u!1 &7965292846039863721
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7385114997181286587}
-  - component: {fileID: 7385114997181286586}
-  - component: {fileID: 7385114997181286581}
-  - component: {fileID: 2640591700842360860}
-  - component: {fileID: 3258144530798411368}
-  - component: {fileID: 6546774084285773973}
-  - component: {fileID: 6546774084525726466}
+  - component: {fileID: 7965292846039863725}
+  - component: {fileID: 7965292846039863724}
+  - component: {fileID: 7965292846039863723}
+  - component: {fileID: 7965292846039863722}
+  - component: {fileID: 807714706}
   m_Layer: 0
-  m_Name: Barrel
-  m_TagString: Untagged
+  m_Name: coin
+  m_TagString: item Gold
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7385114997181286587
+--- !u!4 &7965292846039863725
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7385114997181286580}
+  m_GameObject: {fileID: 7965292846039863721}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.17, y: 1.62, z: 0}
+  m_LocalPosition: {x: 2.575172, y: -0.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7385114997181286586
+--- !u!212 &7965292846039863724
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7385114997181286580}
+  m_GameObject: {fileID: 7965292846039863721}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -75,28 +73,29 @@ SpriteRenderer:
   m_SortingLayerID: -2097465267
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 292255349479754790, guid: 1439ce57cb005594ab397288f7781e0e, type: 3}
+  m_Sprite: {fileID: 8003260396191338441, guid: b1d5ad0f2bb10bd4b8135bd40a5cde5b,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4, y: 4}
+  m_Size: {x: 0.5, y: 0.5625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &7385114997181286581
+--- !u!95 &7965292846039863723
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7385114997181286580}
+  m_GameObject: {fileID: 7965292846039863721}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 981e8c3a5f8cf2944aa36d9cd2327029, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7aca57cef5f8a7c4faedd9c6fee65bab, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -105,82 +104,70 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2640591700842360860
+--- !u!114 &7965292846039863722
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7385114997181286580}
+  m_GameObject: {fileID: 7965292846039863721}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8a5868055432ce4391b02b4cc5071ca, type: 3}
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingOrderBase: 5000
-  offset: 5
-  runOnlyOnce: 0
---- !u!61 &3258144530798411368
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.2
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000a3d83910f1f65405fbad68804d38fb82
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1.22
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
+--- !u!61 &807714706
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7385114997181286580}
+  m_GameObject: {fileID: 7965292846039863721}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.05352354, y: -0.59681326}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4, y: 4}
-    newSize: {x: 4, y: 4}
+    oldSize: {x: 0.5, y: 0.5625}
+    newSize: {x: 0.5, y: 0.5625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2711926, y: 0.81313765}
+  m_Size: {x: 0.5, y: 0.5625}
   m_EdgeRadius: 0
---- !u!114 &6546774084285773973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7385114997181286580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c727b701953d4059b5fd5418beae3a6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _health: 3
-  _animatorTriggerHit: hit
-  _animatorTriggerExplode: explode
-  _soundHit: {fileID: 8300000, guid: ed92ba69125243646a4e9c4a115a3cd5, type: 3}
-  _soundExplode: {fileID: 8300000, guid: 252d0218d70f37d44901592e5c127f77, type: 3}
-  _disableWhenDie: 1
---- !u!114 &6546774084525726466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7385114997181286580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56ec931bd8cf47348530f9a11d8ed15a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _chanceToLoot: 70
-  _chanceItemToLoot:
-  - {fileID: 7965292846039863721, guid: 8679b0392f9b2e54e8b72ca2637fa4b6, type: 3}
-  - {fileID: 7965292846039863721, guid: 8679b0392f9b2e54e8b72ca2637fa4b6, type: 3}
-  - {fileID: 6207999134975863594, guid: 2c507fcf0c11c1048b1265a76dbe3a18, type: 3}
-  - {fileID: 6207999134975863594, guid: 2c507fcf0c11c1048b1265a76dbe3a18, type: 3}
-  ItemToLoot: {fileID: 5944257534013775820, guid: 0369a639170dcf5478b943f11ea2cef5,
-    type: 3}

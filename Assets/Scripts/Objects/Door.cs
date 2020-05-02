@@ -15,9 +15,11 @@ namespace DefaultNamespace
 
         private void OnCollisionEnter2D(Collision2D other)
         {
-            if (!other.gameObject.CompareTag("Player") && PlayerItems.Instance.SilverKeys < 1) return;
-            PlayerItems.Instance.SilverKeys--;
-            _animator.SetTrigger("open");
+            if (other.gameObject.CompareTag("Player") && PlayerItems.Instance.SilverKeys >= 1)
+            {
+                PlayerItems.Instance.SilverKeys--;
+                _animator.SetTrigger("open");
+            }
         }
     }
 }

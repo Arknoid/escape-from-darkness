@@ -13,9 +13,8 @@ namespace Core
         [SerializeField] private AudioClip _soundHit;
         [SerializeField] private AudioClip _soundExplode;
         [SerializeField] private bool _disableWhenDie = true;
-        
-        public bool IsDie => _currentHealth <= 0;
 
+        public bool IsDie => _currentHealth <= 0;
         private int _currentHealth;
         private Animator _animator;
         private Collider2D _collider;

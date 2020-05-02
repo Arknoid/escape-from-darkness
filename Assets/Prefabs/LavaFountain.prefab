@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2097465267
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 3
   m_Sprite: {fileID: -537845854354478843, guid: 661a92238d7b5aa4684f45d7baedd83f,
     type: 3}
@@ -216,7 +216,27 @@ PrefabInstance:
     - target: {fileID: 2959474384684732278, guid: a9ef913509b5c094fa5294fdb2eb24ab,
         type: 3}
       propertyPath: m_PointLightOuterRadius
-      value: 1
+      value: 1.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959474384684732278, guid: a9ef913509b5c094fa5294fdb2eb24ab,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959474384684732279, guid: a9ef913509b5c094fa5294fdb2eb24ab,
+        type: 3}
+      propertyPath: _minIntensity
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959474384684732279, guid: a9ef913509b5c094fa5294fdb2eb24ab,
+        type: 3}
+      propertyPath: _maxIntensity
+      value: 1.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959474384684732279, guid: a9ef913509b5c094fa5294fdb2eb24ab,
+        type: 3}
+      propertyPath: _rate
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9ef913509b5c094fa5294fdb2eb24ab, type: 3}

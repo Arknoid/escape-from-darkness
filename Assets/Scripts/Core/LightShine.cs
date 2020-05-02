@@ -29,7 +29,7 @@ namespace Core
             while (true)
             {
                 yield return new WaitForSeconds(_rate);
-                _light.intensity = Random.Range(_minIntensity, _maxIntensity);
+                _light.pointLightOuterRadius =(float) Random.Range(_minIntensity, _maxIntensity);
             }
 
         }
