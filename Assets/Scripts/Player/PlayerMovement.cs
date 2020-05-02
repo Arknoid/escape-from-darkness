@@ -59,13 +59,10 @@ namespace Player
 
         private void Jump()
         {
-            Debug.Log("jump");
-            if (_canJump)
-            {
-                _canJump = false;
-                _animator.SetTrigger(Jump1);
-                StartCoroutine(ResetCanJump());
-            }
+            if (!_canJump) return;
+            _canJump = false;
+            _animator.SetTrigger(Jump1);
+            StartCoroutine(ResetCanJump());
 
         }
 
