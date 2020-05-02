@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Item Silver Key
+  - Item Gold Key
+  - Item Wood
+  - item Gold
   layers:
   - Default
   - TransparentFX

@@ -17,16 +17,15 @@ namespace Player
             _animator = GetComponent<Animator>();
             _playerMovement = GetComponent<PlayerMovement>();
             _playerInput = GetComponent<PlayerInput>();
-        }
+        }   
 
         private void OnCollisionEnter2D(Collision2D other)
         {
-            var gm = other.transform.GetComponent<IDamageable>();
-            if (gm == null) return;
-  
-            if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Jump"));
+            var damageableObject = other.transform.GetComponent<IDamageable>();
+            if (damageableObject == null) return;
+            if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Jump"))
             {
-                gm.TakeDamage(_playerInput.IsRunning ? speedJumpAttackDamage : jumpAttackDamage);
+                damageableObject.TakeDamage(_playerInput.IsRunning ? speedJumpAttackDamage : jumpAttackDamage);
             }
         }
     }

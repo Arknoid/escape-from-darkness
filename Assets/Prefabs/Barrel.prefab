@@ -162,4 +162,4 @@ MonoBehaviour:
   _animatorTriggerExplode: explode
   _soundHit: {fileID: 8300000, guid: ed92ba69125243646a4e9c4a115a3cd5, type: 3}
   _soundExplode: {fileID: 8300000, guid: 252d0218d70f37d44901592e5c127f77, type: 3}
-  _disableWhenDie: 0
+  _disableWhenDie: 1
