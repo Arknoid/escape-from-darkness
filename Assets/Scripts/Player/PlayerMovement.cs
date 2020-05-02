@@ -15,19 +15,16 @@ namespace Player
         private float _baseSpeed;
         private bool _isFacingRight = true;
         private float _speed;
-        private bool _canJump = true;
-        
-        [SerializeField] private float _jumpDelay = 0.5f;
-        private static readonly int IsMoving = Animator.StringToHash("isMoving");
-        private static readonly int Jump1 = Animator.StringToHash("jump");
 
+        private static readonly int IsMoving = Animator.StringToHash("isMoving");
+        
         private void Awake()
         {
             _rb = GetComponent<Rigidbody2D>();
             _playerInput = GetComponent<PlayerInput>();
             _animator = GetComponent<Animator>();
             _speed = _baseSpeed;
-            GetComponent<PlayerInput>().OnJump += Jump;
+
         }
         
         private void Update()
@@ -49,26 +46,7 @@ namespace Player
                 Flip();
             }
         }
-
-        private void OnDestroy()
-        {
-            GetComponent<PlayerInput>().OnJump -= Jump;
-        }
-
-        private void Jump()
-        {
-            if (!_canJump) return;
-            _canJump = false;
-            _animator.SetTrigger(Jump1);
-            StartCoroutine(ResetCanJump());
-
-        }
         
-        private IEnumerator ResetCanJump()
-        {
-            yield return new WaitForSeconds(_jumpDelay);
-            _canJump = true;
-        }
         
         private void FixedUpdate()
         {

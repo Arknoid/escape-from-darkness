@@ -1,32 +1,26 @@
 ﻿using System;
-using Core.Interfaces;
+using Core;
 using UnityEngine;
 
 namespace Player
 {
-    public class PlayerWeapon : MonoBehaviour
+    public class PlayerWeapon : Weapon
     {
-        private PlayerMovement _playerMovement;
-        private PlayerInput _playerInput;
-        private Animator _animator;
-        [SerializeField] private int jumpAttackDamage = 1;
-        [SerializeField] private int speedJumpAttackDamage = 3;
+        private Animator _playerAnimator;
+        [SerializeField] private string _animationName;
         
-        private void Awake()
+        private void Start()
         {
-            _animator = GetComponent<Animator>();
-            _playerMovement = GetComponent<PlayerMovement>();
-            _playerInput = GetComponent<PlayerInput>();
-        }   
+            _playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+        }
 
-        private void OnCollisionEnter2D(Collision2D other)
+        protected override void OnTriggerEnter2D(Collider2D other)
         {
-            var damageableObject = other.transform.GetComponent<IDamageable>();
-            if (damageableObject == null) return;
-            if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Jump"))
+            if (_playerAnimator.GetCurrentAnimatorStateInfo(0).IsName(_animationName))
             {
-                damageableObject.TakeDamage(_playerInput.IsRunning ? speedJumpAttackDamage : jumpAttackDamage);
+                base.OnTriggerEnter2D(other);
             }
+
         }
     }
 }
