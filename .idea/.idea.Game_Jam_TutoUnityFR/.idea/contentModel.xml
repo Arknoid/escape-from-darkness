@@ -11,6 +11,12 @@
           <e p="Core" t="Include">
             <e p="CameraShake.cs" t="Include" />
             <e p="Disabler.cs" t="Include" />
+            <e p="Health.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IDamageable.cs" t="Include" />
+              <e p="IMoveable.cs" t="Include" />
+              <e p="IProjectile.cs" t="Include" />
+            </e>
             <e p="LightShine.cs" t="Include" />
             <e p="Movement.cs" t="Include" />
             <e p="ObjectPooler.cs" t="Include" />
@@ -28,6 +34,7 @@
           <e p="Player" t="Include">
             <e p="PlayerInput.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
+            <e p="PlayerWeapon.cs" t="Include" />
           </e>
           <e p="Utils" t="Include">
             <e p="PositionRendererSorter.cs" t="Include" />

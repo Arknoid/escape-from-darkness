@@ -1,37 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4108b30-60ed-4714-88e6-42a6d1f9daf8" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door/Closed.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door/Closed.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door/Door.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door/Door.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door/Open.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Door/Open.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Door.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Door.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/PositionRendererSorter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/PositionRendererSorter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/door_Open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/door_Open.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/door_closed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/door_closed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/left_wall-door..png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/left_wall-door..png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/right_wall-door..png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/right_wall-door..png.meta" afterDir="false" />
+    <list default="true" id="e4108b30-60ed-4714-88e6-42a6d1f9daf8" name="Default Changelist" comment="Added destructible and enemy">
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Box/BoxAnimator.overrideController" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Box/BoxAnimator.overrideController.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Recipe/Recipe.overrideController" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Recipe/Recipe.overrideController.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Slipery.physicsMaterial2D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Slipery.physicsMaterial2D.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Walls.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Interfaces.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Interfaces/IDamageable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Interfaces/IDamageable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Interfaces/IMoveable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Interfaces/IMoveable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Interfaces/IProjectile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Interfaces/IProjectile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/asteroid_Explode.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/asteroid_Explode.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/asteroid_Hit.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/asteroid_Hit.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Barrel/Barrel.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Barrel/Barrel.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Barrel/Explode.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Barrel/Explode.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Barrel/Hit.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Barrel/Hit.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Box/Box.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Box/Box.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Box/Explode.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Box/Explode.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Box/Hit.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Box/Hit.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Recipe/Explode.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Recipe/Explode.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Recipe/Hit.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Recipe/Hit.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Recipe/Pot.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Recipe/Pot.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Barrel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Barrel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Main Camera Profile 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Main Camera Profile 1.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/doors.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/doors.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Destructible Objects Sprite Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Destructible Objects Sprite Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/doors.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/doors.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sprites/dungeon_tilemap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/dungeon_tilemap.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/run_effect.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/run_effect.aseprite.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +60,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/TagSelectorPropertyDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/TagSelectorAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Disabler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/PositionRendererSorter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/LightShine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/PositionRendererSorter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Patterns/MonoSingleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -58,6 +79,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/LightShine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" />
       </list>
     </option>
   </component>

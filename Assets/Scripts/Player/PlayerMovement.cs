@@ -31,9 +31,7 @@ namespace Player
         }
         
         private void Update()
-        
         {
-            
             _animator.SetBool("isRunning", _playerInput.IsRunning);
             _animator.SetFloat("velocity", Mathf.Abs(_playerInput.Horizontal + _playerInput.Vertical));
             
@@ -65,7 +63,7 @@ namespace Player
             StartCoroutine(ResetCanJump());
 
         }
-
+        
         private IEnumerator ResetCanJump()
         {
             yield return new WaitForSeconds(_jumpDelay);
@@ -76,7 +74,6 @@ namespace Player
         {
             _rb.velocity = new Vector2(_playerInput.Horizontal * _speed * Time.fixedDeltaTime, _playerInput.Vertical* _speed * Time.fixedDeltaTime);
         }
-        
         
         private void Flip()
         {

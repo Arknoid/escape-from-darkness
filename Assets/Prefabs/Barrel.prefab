@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4370711147316847123}
   - component: {fileID: 9115167442698640058}
   - component: {fileID: 8641723135299769550}
+  - component: {fileID: 22647347}
   m_Layer: 0
   m_Name: Barrel
   m_TagString: Untagged
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2097465267
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 292255349479754790, guid: 1439ce57cb005594ab397288f7781e0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -131,10 +132,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02761507, y: -0.014090657}
+  m_Offset: {x: 0.05352354, y: -0.59681326}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.53, y: 0.35}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 4, y: 4}
     newSize: {x: 4, y: 4}
     adaptiveTilingThreshold: 0.5
@@ -142,5 +143,23 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.90238, y: 0.53284144}
+  m_Size: {x: 1.2711926, y: 0.81313765}
   m_EdgeRadius: 0
+--- !u!114 &22647347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4370711147316847122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c727b701953d4059b5fd5418beae3a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: 3
+  _animatorTriggerHit: hit
+  _animatorTriggerExplode: explode
+  _soundHit: {fileID: 8300000, guid: ed92ba69125243646a4e9c4a115a3cd5, type: 3}
+  _soundExplode: {fileID: 8300000, guid: 252d0218d70f37d44901592e5c127f77, type: 3}
+  _disableWhenDie: 0
