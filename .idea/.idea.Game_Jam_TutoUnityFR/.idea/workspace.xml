@@ -1,23 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4108b30-60ed-4714-88e6-42a6d1f9daf8" name="Default Changelist" comment="Added Woods and Torch">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Sword_Attack.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Sword_Attack.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeaponsManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeaponsManager.cs.meta" afterDir="false" />
+    <list default="true" id="e4108b30-60ed-4714-88e6-42a6d1f9daf8" name="Default Changelist" comment="Added Weapon and attacks to players">
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MiniMonster.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MiniMonster/hit.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MiniMonster/hit.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MiniMonster/idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MiniMonster/idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MiniMonster/mini-monter_0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MiniMonster/mini-monter_0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Monster.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Monster.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/MonsterHealth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/MonsterHealth.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/hearts.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/mage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/mage.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/mini-monter-hit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/mini-monter-hit.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/mini-monter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/mini-monter.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/monster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/monster.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ogre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ogre.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/potion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/potion.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/potion_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/potion_blue.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Torch/Torch.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Torch/Torch.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/RustySword.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/RustySword.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/knif.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/knif.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +57,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Disabler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Barrel.prefab.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Monster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/Door.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Interfaces/IDamageable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/Runtime/2D/Light2DPoint.cs" root0="SKIP_HIGHLIGHTING" />
@@ -53,6 +69,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/objects/Wood.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/objects/Wood.prefab.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Spider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/MonsterHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/PositionRendererSorter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,7 +83,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Spider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/Door.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Lootable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Loot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/LootsOneInChildren.cs" />
@@ -81,6 +97,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeaponsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/MonsterHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Monster.cs" />
       </list>
     </option>
   </component>
@@ -184,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588454884254</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Weapon and attacks to players">
+      <created>1588461482323</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588461482323</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +235,8 @@
     <MESSAGE value="Added destructible object working" />
     <MESSAGE value="Added Openable doors" />
     <MESSAGE value="Added Woods and Torch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Woods and Torch" />
+    <MESSAGE value="Added Weapon and attacks to players" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Weapon and attacks to players" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1459" y="163" key="SettingsEditor" timestamp="1588362243333">
@@ -220,9 +247,13 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588432913599" />
-    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2" timestamp="1588454855731">
+    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2" timestamp="1588461484284">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588454855731" />
+    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588461484284" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588464106288">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588464106288" />
   </component>
 </project>

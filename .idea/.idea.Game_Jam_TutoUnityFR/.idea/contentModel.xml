@@ -27,6 +27,8 @@
             <e p="TagSelectorPropertyDrawer.cs" t="Include" />
           </e>
           <e p="Enemy" t="Include">
+            <e p="Monster.cs" t="Include" />
+            <e p="MonsterHealth.cs" t="Include" />
             <e p="Spider.cs" t="Include" />
           </e>
           <e p="Managers" t="Include">
