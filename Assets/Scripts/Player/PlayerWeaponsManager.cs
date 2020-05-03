@@ -43,7 +43,7 @@ namespace Player
         }
         private void Awake()
         {
-            CurrentWeapon = Weapons.RustySword;
+            CurrentWeapon = Weapons.Jump;
             _animator = GetComponent<Animator>();
             _playerMovement = GetComponent<PlayerMovement>();
             _playerInput = GetComponent<PlayerInput>();

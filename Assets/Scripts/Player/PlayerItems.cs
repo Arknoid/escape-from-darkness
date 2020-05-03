@@ -15,9 +15,12 @@ namespace Player
         [SerializeField] private int _healthToAdd = 1;
         
         private Health _playerHealth;
-
+        private PlayerWeaponsManager _playerWeaponsManager;
+        
+        
         private void Start()
         {
+            _playerWeaponsManager = GetComponent<PlayerWeaponsManager>();
             _playerHealth = GetComponent<Health>();
         }
 
@@ -77,6 +80,17 @@ namespace Player
                     other.GetComponent<Collider2D>().enabled = false;
                     _playerHealth.AddHealth(_healthToAdd);
                     Destroy(other.gameObject,0.3f);
+                    break;
+                case "Item_Knife" :
+                    other.GetComponent<Collider2D>().enabled = false;
+                    _playerWeaponsManager.CurrentWeapon = Weapons.Knife;
+                    Destroy(other.gameObject);
+                    break;
+                case "Item_Sword" : 
+                    other.GetComponent<Collider2D>().enabled = false;
+                    _playerHealth.AddHealth(_healthToAdd);
+                    _playerWeaponsManager.CurrentWeapon = Weapons.RustySword;
+                    Destroy(other.gameObject);
                     break;
             }
         }

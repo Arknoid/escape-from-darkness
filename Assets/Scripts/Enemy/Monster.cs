@@ -22,7 +22,6 @@ namespace Enemy
         private bool _isFacingRight = true;
         [SerializeField]
         private float _attackDelay = 0.5f;
-
         private bool _canAttack = true;
         
         private GameObject _target;

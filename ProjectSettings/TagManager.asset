@@ -10,6 +10,8 @@ TagManager:
   - item Gold
   - potion_blue
   - potion_red
+  - Item_Sword
+  - Item_Knife
   layers:
   - Default
   - TransparentFX
