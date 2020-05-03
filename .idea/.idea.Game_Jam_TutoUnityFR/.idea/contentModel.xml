@@ -7,6 +7,11 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Prefabs" t="Include">
+          <e p="ProgressBar" t="Include">
+            <e p="ProgressBar.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
             <e p="CameraShake.cs" t="Include" />
@@ -33,6 +38,7 @@
           </e>
           <e p="Managers" t="Include">
             <e p="SoundManager.cs" t="Include" />
+            <e p="UiManager.cs" t="Include" />
           </e>
           <e p="Objects" t="Include">
             <e p="Door.cs" t="Include" />
@@ -44,6 +50,7 @@
             <e p="MonoSingleton.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
+            <e p="PlayerHealth.cs" t="Include" />
             <e p="PlayerInput.cs" t="Include" />
             <e p="PlayerItems.cs" t="Include" />
             <e p="PlayerLights.cs" t="Include" />

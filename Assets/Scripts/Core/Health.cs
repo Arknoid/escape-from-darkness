@@ -7,13 +7,25 @@ namespace Core
 {
     public class Health : MonoBehaviour, IDamageable
     {
-        [SerializeField] private int _health = 3;
+        [SerializeField] private int _health = 10;
+        [SerializeField] private int  _maxHealth = 100;
         [SerializeField] private string _animatorTriggerHit = "hit";
         [SerializeField] private string _animatorTriggerExplode = "explode";
         [SerializeField] private AudioClip _soundHit;
         [SerializeField] private AudioClip _soundExplode;
         [SerializeField] private bool _disableWhenDie = true;
 
+        public int CurrentHealth
+        {
+            get => _currentHealth;
+            protected set => _currentHealth = value;
+        }
+
+        public virtual void AddHealth(int amount)
+        {
+            _currentHealth += amount;
+        }
+        
         public bool IsDie => _currentHealth <= 0;
         private int _currentHealth;
         private Animator _animator;

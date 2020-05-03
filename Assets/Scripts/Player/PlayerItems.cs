@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Security.Cryptography;
+using Core;
 using Patterns;
 using UnityEngine;
 
@@ -11,7 +12,15 @@ namespace Player
         [SerializeField] private int _goldKeys = 0;
         [SerializeField] private int _woods = 0;
         [SerializeField] private int _golds = 0;
+        [SerializeField] private int _healthToAdd = 1;
         
+        private Health _playerHealth;
+
+        private void Start()
+        {
+            _playerHealth = GetComponent<Health>();
+        }
+
         public int SilverKeys
         {
             get => _silverKeys;
@@ -59,6 +68,15 @@ namespace Player
                     other.GetComponent<Collider2D>().enabled = false;
                     Destroy(other.gameObject,0.3f);
                     Golds++;
+                    break;
+                case "potion_blue" :
+                    other.GetComponent<Collider2D>().enabled = false;
+                    Destroy(other.gameObject,0.3f);
+                    break;
+                case "potion_red" :
+                    other.GetComponent<Collider2D>().enabled = false;
+                    _playerHealth.AddHealth(_healthToAdd);
+                    Destroy(other.gameObject,0.3f);
                     break;
             }
         }

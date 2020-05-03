@@ -8,6 +8,8 @@ TagManager:
   - Item Gold Key
   - Item Wood
   - item Gold
+  - potion_blue
+  - potion_red
   layers:
   - Default
   - TransparentFX
