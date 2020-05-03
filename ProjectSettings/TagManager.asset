@@ -12,6 +12,7 @@ TagManager:
   - potion_red
   - Item_Sword
   - Item_Knife
+  - Item_Rusty_Sword
   layers:
   - Default
   - TransparentFX

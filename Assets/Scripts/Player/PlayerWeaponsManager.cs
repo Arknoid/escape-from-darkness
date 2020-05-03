@@ -12,6 +12,7 @@ namespace Player
         Jump,
         Knife,
         RustySword,
+        Sword
     }
     public class PlayerWeaponsManager : MonoSingleton<PlayerWeaponsManager>
     {
@@ -27,10 +28,13 @@ namespace Player
         [SerializeField] private int _runJumpAttackDamage = 3;
 
         [SerializeField] private GameObject _knifeWeapon;
+        [SerializeField] private GameObject _rustySwordWeapon;
         [SerializeField] private GameObject _swordWeapon;
+        
         private Weapons _currentWeapon;
         private static readonly int KnifeAttack = Animator.StringToHash("knifeAttack");
         private static readonly int RustySwordAttack = Animator.StringToHash("rustySwordAttack");
+        private static readonly int SwordAttack = Animator.StringToHash("swordAttack");
 
         public Weapons CurrentWeapon
         {
@@ -55,16 +59,24 @@ namespace Player
             switch (CurrentWeapon)
             {
                 case Weapons.Jump : 
-                    _swordWeapon.SetActive(false);
+                    _rustySwordWeapon.SetActive(false);
                     _knifeWeapon.SetActive(false);
+                    _swordWeapon.SetActive(false);
                     break;
                 case Weapons.Knife :
-                    _swordWeapon.SetActive(false);
+                    _rustySwordWeapon.SetActive(false);
                     _knifeWeapon.SetActive(true);
+                    _swordWeapon.SetActive(false);
                     break;
                 case Weapons.RustySword :
-                    _swordWeapon.SetActive(true);
+                    _rustySwordWeapon.SetActive(true);
                     _knifeWeapon.SetActive(false);
+                    _swordWeapon.SetActive(false);
+                    break;
+                case Weapons.Sword :
+                    _rustySwordWeapon.SetActive(false);
+                    _knifeWeapon.SetActive(false);
+                    _swordWeapon.SetActive(true);
                     break;
                 default:
                     break;
@@ -91,6 +103,9 @@ namespace Player
                     break;
                 case Weapons.RustySword :
                     _animator.SetTrigger(RustySwordAttack);
+                    break;
+                case Weapons.Sword :
+                    _animator.SetTrigger(SwordAttack);
                     break;
                 default:
                     break;

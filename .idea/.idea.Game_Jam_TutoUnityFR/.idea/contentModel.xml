@@ -43,6 +43,7 @@
           <e p="Objects" t="Include">
             <e p="Chest.cs" t="Include" />
             <e p="Door.cs" t="Include" />
+            <e p="EndDoor.cs" t="Include" />
             <e p="LavaFountain.cs" t="Include" />
             <e p="Loot.cs" t="Include" />
             <e p="LootsOneInChildren.cs" t="Include" />

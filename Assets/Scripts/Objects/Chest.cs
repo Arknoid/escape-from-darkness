@@ -31,7 +31,7 @@ namespace Objects
         private IEnumerator LootItem()
         {
             yield return new WaitForSeconds(1);
-            GameObject.Instantiate(ItemToLoot, new Vector3(transform.position.x, transform.position.y - 1 , transform.position.z), quaternion.identity);
+            GameObject.Instantiate(ItemToLoot, new Vector3(transform.position.x, transform.position.y - 1 , transform.position.z), quaternion.RotateZ(-90));
         }
         
         

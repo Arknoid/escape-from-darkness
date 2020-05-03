@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4108b30-60ed-4714-88e6-42a6d1f9daf8" name="Default Changelist" comment="Added Monster Aggro">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chest.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chest.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chest.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chest/close.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chest/open.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chest/open.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/RustySword-Item.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/RustySword-Item.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/knif-Item.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/knif-Item.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Objects/Chest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Objects/Chest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/RustySword.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/RustySword.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/chest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/chest.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/micro-monster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/micro-monster.png.meta" afterDir="false" />
+    <list default="true" id="e4108b30-60ed-4714-88e6-42a6d1f9daf8" name="Default Changelist" comment="Added Chest">
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor/closed.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor/closed.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor/door_closed.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor/door_closed.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor/open.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor/open.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Sword_Attack1.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Sword_Attack1.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/Sword-Item.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/Sword-Item.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Objects/EndDoor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Objects/EndDoor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Sword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Sword.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/door_silver_closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/door_silver_closed.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/door_silver_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/door_silver_open.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Jump.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Knif_Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Knif_Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Sword_Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Sword_Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/objects/RustySword-Item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/RustySword-Item.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Monster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Monster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Objects/Chest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Objects/Chest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerItems.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeaponsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeaponsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/door_Open.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/door_Open.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,8 +84,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Animations/Monster/Hit.anim.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/TagSelectorAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Animations/Monster/monster.overrideController.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/EndDoor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Animations/Chest/close.anim.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Patterns/MonoSingleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeaponsManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/Loot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Disabler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -101,7 +114,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Lootable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Loot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/LootsOneInChildren.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/Loot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/LightShine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/LavaFountain.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerLights.cs" />
@@ -113,11 +125,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/MonsterHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/UiManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Monster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeaponsManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerItems.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/Loot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/Chest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerItems.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/SoundManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/EndDoor.cs" />
       </list>
     </option>
   </component>
@@ -185,7 +200,7 @@
       <workItem from="1588335854235" duration="365000" />
       <workItem from="1588336284830" duration="120000" />
       <workItem from="1588361335660" duration="9153000" />
-      <workItem from="1588490031852" duration="11156000" />
+      <workItem from="1588490031852" duration="15556000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1588369913205</created>
@@ -257,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588499611370</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Chest">
+      <created>1588503852996</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588503852996</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added Chest">
+      <created>1588503865728</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588503865728</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +317,8 @@
     <MESSAGE value="Added Monsters" />
     <MESSAGE value="Added CanvasUI" />
     <MESSAGE value="Added Monster Aggro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Monster Aggro" />
+    <MESSAGE value="Added Chest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Chest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1459" y="163" key="SettingsEditor" timestamp="1588362243333">
@@ -299,13 +329,13 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588432913599" />
-    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2" timestamp="1588499613862">
+    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2" timestamp="1588503855586">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588499613862" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588503017403">
+    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588503855586" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588508833356">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588503017403" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588508833356" />
   </component>
 </project>

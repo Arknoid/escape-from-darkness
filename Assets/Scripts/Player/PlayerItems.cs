@@ -86,9 +86,13 @@ namespace Player
                     _playerWeaponsManager.CurrentWeapon = Weapons.Knife;
                     Destroy(other.gameObject);
                     break;
-                case "Item_Sword" : 
+                case "Item_Sword" :
                     other.GetComponent<Collider2D>().enabled = false;
-                    _playerHealth.AddHealth(_healthToAdd);
+                    _playerWeaponsManager.CurrentWeapon = Weapons.Sword;
+                    Destroy(other.gameObject);
+                    break;
+                case "Item_RustySword" :
+                    other.GetComponent<Collider2D>().enabled = false;
                     _playerWeaponsManager.CurrentWeapon = Weapons.RustySword;
                     Destroy(other.gameObject);
                     break;

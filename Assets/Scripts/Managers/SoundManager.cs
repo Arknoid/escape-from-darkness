@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using Patterns;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Managers
 {
@@ -23,6 +25,11 @@ namespace Managers
         public void PlayMusic(AudioClip clip)
         {
             _musicSource.clip = clip;
+            _musicSource.Play();
+        }
+
+        private void Start()
+        {
             _musicSource.Play();
         }
 

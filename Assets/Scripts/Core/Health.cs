@@ -72,6 +72,7 @@ namespace Core
             yield return new WaitForSeconds(_dieTimer);
             if (_rebootGameOnDie)
             {
+                SoundManager.Instance.StopMusic();
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
             
