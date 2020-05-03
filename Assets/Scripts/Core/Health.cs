@@ -2,6 +2,7 @@
 using Core.Interfaces;
 using Managers;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Core
 {
@@ -14,7 +15,9 @@ namespace Core
         [SerializeField] private AudioClip _soundHit;
         [SerializeField] private AudioClip _soundExplode;
         [SerializeField] private bool _disableWhenDie = true;
-
+        [SerializeField] private bool _rebootGameOnDie = false;
+        [SerializeField] private float _dieTimer = 1f;
+        
         public int CurrentHealth
         {
             get => _currentHealth;
@@ -66,7 +69,12 @@ namespace Core
                 SoundManager.Instance.PlaySingle(_soundExplode);
             }
             _animator.SetTrigger(_animatorTriggerExplode);
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(_dieTimer);
+            if (_rebootGameOnDie)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            
             if (_disableWhenDie)
             {
                 _currentHealth = _health;

@@ -50,7 +50,6 @@
             <e p="MonoSingleton.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
-            <e p="PlayerHealth.cs" t="Include" />
             <e p="PlayerInput.cs" t="Include" />
             <e p="PlayerItems.cs" t="Include" />
             <e p="PlayerLights.cs" t="Include" />

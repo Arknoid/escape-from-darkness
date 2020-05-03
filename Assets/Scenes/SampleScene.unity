@@ -2330,7 +2330,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_LocalRotation: {x: -0.044128567, y: 0.0000000021487025, z: 9.491148e-11, w: 0.9990259}
+  m_LocalRotation: {x: -0.044128567, y: -0.0000000021487028, z: -9.4911766e-11, w: 0.9990259}
   m_LocalPosition: {x: 0, y: -0.75, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -3247,7 +3247,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801379454}
-  m_LocalRotation: {x: -0.044128567, y: 0.0000000021487025, z: 9.491148e-11, w: 0.9990259}
+  m_LocalRotation: {x: -0.044128567, y: -0.0000000021487028, z: -9.4911766e-11, w: 0.9990259}
   m_LocalPosition: {x: 0, y: -0.75, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -19264,6 +19264,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthBar: {fileID: 1491361920}
+  _silverKeysText: {fileID: 1616581045}
+  _goldKeysText: {fileID: 1500413851}
+  _goldsText: {fileID: 632143924}
+  _woodsText: {fileID: 1111220419}
 --- !u!1001 &1414180796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21200,6 +21204,8 @@ MonoBehaviour:
   _soundHit: {fileID: 0}
   _soundExplode: {fileID: 0}
   _disableWhenDie: 0
+  _rebootGameOnDie: 1
+  _dieTimer: 3
 --- !u!114 &2093999379
 MonoBehaviour:
   m_ObjectHideFlags: 0

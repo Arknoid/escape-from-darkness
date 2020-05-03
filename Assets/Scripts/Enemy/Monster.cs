@@ -15,6 +15,8 @@ namespace Enemy
         private Rigidbody2D _rb;
         [SerializeField] private int _damage;
         [SerializeField] private float _speed = 2;
+        [SerializeField] private float _aggroDistance = 10f;
+        
         private Animator _animator;
         [SerializeField]
         private bool _isFacingRight = true;
@@ -39,7 +41,17 @@ namespace Enemy
         {
             if (_target == null) return;
             transform.rotation.SetLookRotation(_target.transform.position);
-            _rb.velocity = (_target.transform.position -_rb.transform.position).normalized * _speed;
+            if (_target.transform.position.x - _rb.transform.position.x > -_aggroDistance 
+                && _target.transform.position.x - _rb.transform.position.x < _aggroDistance
+                && _target.transform.position.y - _rb.transform.position.y > -_aggroDistance 
+                && _target.transform.position.y - _rb.transform.position.y < _aggroDistance)
+            {
+                _rb.velocity = (_target.transform.position -_rb.transform.position).normalized * _speed;
+            }
+            else
+            {
+                _rb.velocity = Vector2.zero;
+            }
             
             if (_rb.velocity.x < 0.1 && _isFacingRight || _rb.velocity.x > 0.1 && !_isFacingRight)
             {
