@@ -1,42 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4108b30-60ed-4714-88e6-42a6d1f9daf8" name="Default Changelist" comment="Added Chest">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor/closed.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor/closed.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor/door_closed.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor/door_closed.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor/open.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor/open.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Sword_Attack1.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Sword_Attack1.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/Sword-Item.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/Sword-Item.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Objects/EndDoor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Objects/EndDoor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Sword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Sword.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/door_silver_closed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/door_silver_closed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/door_silver_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/door_silver_open.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="e4108b30-60ed-4714-88e6-42a6d1f9daf8" name="Default Changelist" comment="Added End door">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Jump.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Knif_Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Knif_Attack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Sword_Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Sword_Attack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/objects/RustySword-Item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/RustySword-Item.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/EndDoor/open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/EndDoor/open.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/SoundManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Objects/Chest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Objects/Chest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerItems.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeaponsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeaponsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/door_Open.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/door_Open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/UiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/UiManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Objects/EndDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Objects/EndDoor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +95,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/MonsterHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/UiManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Monster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeaponsManager.cs" />
@@ -133,6 +104,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/SoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/EndDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/UiManager.cs" />
       </list>
     </option>
   </component>
@@ -200,7 +172,7 @@
       <workItem from="1588335854235" duration="365000" />
       <workItem from="1588336284830" duration="120000" />
       <workItem from="1588361335660" duration="9153000" />
-      <workItem from="1588490031852" duration="15556000" />
+      <workItem from="1588490031852" duration="17929000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1588369913205</created>
@@ -286,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588503865728</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added End door">
+      <created>1588510473813</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588510473813</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +297,8 @@
     <MESSAGE value="Added CanvasUI" />
     <MESSAGE value="Added Monster Aggro" />
     <MESSAGE value="Added Chest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Chest" />
+    <MESSAGE value="Added End door" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added End door" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1459" y="163" key="SettingsEditor" timestamp="1588362243333">
@@ -329,13 +309,13 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588432913599" />
-    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2" timestamp="1588503855586">
+    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2" timestamp="1588510477089">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588503855586" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588508833356">
+    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588510477089" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588512110548">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588508833356" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588512110548" />
   </component>
 </project>
