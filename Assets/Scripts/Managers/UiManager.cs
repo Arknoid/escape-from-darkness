@@ -27,7 +27,6 @@ namespace Managers
         {
             _player = GameObject.FindGameObjectWithTag("Player");
             _playerHealth = _player.GetComponent<Health>();
-            
         }
         
         

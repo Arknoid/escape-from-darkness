@@ -15,12 +15,12 @@ PrefabInstance:
     - target: {fileID: 5788344580632297554, guid: b2b6da31a183cfc4aa8940f5ca084cd0,
         type: 3}
       propertyPath: m_Name
-      value: BossMonster
+      value: BossMonster Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5788344580632297555, guid: b2b6da31a183cfc4aa8940f5ca084cd0,
         type: 3}
       propertyPath: _damage
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5788344580632297555, guid: b2b6da31a183cfc4aa8940f5ca084cd0,
         type: 3}
@@ -30,7 +30,7 @@ PrefabInstance:
     - target: {fileID: 5788344580632297555, guid: b2b6da31a183cfc4aa8940f5ca084cd0,
         type: 3}
       propertyPath: _aggroDistance
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5788344580632297557, guid: b2b6da31a183cfc4aa8940f5ca084cd0,
         type: 3}

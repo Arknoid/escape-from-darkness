@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Core;
 using Unity.Mathematics;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Core
+namespace Objects
 {
     public class Loot : MonoBehaviour
     {

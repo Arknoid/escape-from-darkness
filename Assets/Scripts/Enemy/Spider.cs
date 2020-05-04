@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using Core.Interfaces;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ namespace Enemy
         [SerializeField] private float _speed = 2;
         private Animator _animator;
         private bool _isFacingRight = false;
+        private bool _canAttack = true;
         
         private GameObject _target;
         private void Awake()
@@ -24,17 +26,26 @@ namespace Enemy
         {
             _target = GameObject.FindGameObjectWithTag(_targetTag);
         }
-        
+
+        private IEnumerator ResetCanAttack()
+        {
+            yield return  new WaitForSeconds(0.3f);
+            _canAttack = true;
+        }
         private void Update()
         {
             if (_target == null) return;
             transform.rotation.SetLookRotation(_target.transform.position);
             
-            if (_target.transform.position.x - _rb.transform.position.x > -1f && _target.transform.position.x - _rb.transform.position.x < 1f)
+            if (_target.transform.position.x - _rb.transform.position.x > -1f && _target.transform.position.x - _rb.transform.position.x < 1f && _canAttack)
             {
                 _animator.SetTrigger("attack");
+                _canAttack = false;
+                StartCoroutine(ResetCanAttack());
                 return;
             }
+            
+            
             
             _rb.velocity = (_target.transform.position -_rb.transform.position).normalized * _speed;
             if (_rb.velocity.x < 0.1 && _isFacingRight || _rb.velocity.x > 0.1 && !_isFacingRight)

@@ -17,11 +17,6 @@ namespace Managers
         [SerializeField]
         private float _highPitchRange = 1.05f;
 
-        protected override void Init()
-        {
-            DontDestroyOnLoad(gameObject);
-        }
-
         public void PlayMusic(AudioClip clip)
         {
             _musicSource.clip = clip;

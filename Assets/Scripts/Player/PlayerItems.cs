@@ -91,7 +91,7 @@ namespace Player
                     _playerWeaponsManager.CurrentWeapon = Weapons.Sword;
                     Destroy(other.gameObject);
                     break;
-                case "Item_RustySword" :
+                case "Item_Rusty_Sword" :
                     other.GetComponent<Collider2D>().enabled = false;
                     _playerWeaponsManager.CurrentWeapon = Weapons.RustySword;
                     Destroy(other.gameObject);

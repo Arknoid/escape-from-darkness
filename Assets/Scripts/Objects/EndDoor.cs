@@ -9,7 +9,7 @@ namespace Objects
     {
         private Animator _animator;
         private UiManager _uiManager;
-
+        private bool _isOpen = false;
         private void Awake()
         {
             _animator = GetComponent<Animator>();
@@ -22,17 +22,17 @@ namespace Objects
             {
                 PlayerItems.Instance.GoldKeys--;
                 _animator.SetTrigger("open");
+                _isOpen = true;
             }
         }
-
-        private void OnTriggerStay2D(Collider2D other)
+        
+        private void OnTriggerEnter2D(Collider2D other)
         {
-            _uiManager.ShowEndPanel();
+            if (_isOpen)
+            {
+                 _uiManager.ShowEndPanel();
+            }
         }
-
-        private void OnTr(Collider2D other)
-        {
-            _uiManager.ShowEndPanel();
-        }
+        
     }
 }

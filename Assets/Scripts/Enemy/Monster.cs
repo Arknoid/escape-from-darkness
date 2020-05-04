@@ -63,7 +63,7 @@ namespace Enemy
         {
             var damageableObject = other.transform.GetComponent<IDamageable>();
             if (damageableObject == null && _canAttack) return;
-            damageableObject.TakeDamage(_damage);
+            damageableObject?.TakeDamage(_damage);
             _canAttack = false;
             StartCoroutine(ResetCanAttack());
 

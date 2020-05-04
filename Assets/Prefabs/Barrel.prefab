@@ -133,7 +133,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.05352354, y: -0.59681326}
+  m_Offset: {x: 0.07214308, y: -0.5502642}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -144,7 +144,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2711926, y: 0.81313765}
+  m_Size: {x: 1.3829107, y: 0.9062358}
   m_EdgeRadius: 0
 --- !u!114 &6546774084285773973
 MonoBehaviour:
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c727b701953d4059b5fd5418beae3a6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 3
+  _health: 4
   _maxHealth: 100
   _animatorTriggerHit: hit
   _animatorTriggerExplode: explode
@@ -201,5 +201,6 @@ MonoBehaviour:
   - {fileID: 3140873016965513965, guid: b6129723f72dc9148ad45b4a8f28d11d, type: 3}
   - {fileID: 3140873016965513965, guid: b6129723f72dc9148ad45b4a8f28d11d, type: 3}
   - {fileID: 3140873016965513965, guid: b6129723f72dc9148ad45b4a8f28d11d, type: 3}
+  - {fileID: 9131441460621914505, guid: 9d8a3e18dc104804e9d92579dfdd7d59, type: 3}
   ItemToLoot: {fileID: 5944257534013775820, guid: 0369a639170dcf5478b943f11ea2cef5,
     type: 3}

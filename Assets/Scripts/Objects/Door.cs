@@ -1,8 +1,7 @@
-﻿using System;
-using Player;
+﻿using Player;
 using UnityEngine;
 
-namespace DefaultNamespace
+namespace Objects
 {
     public class Door : UnityEngine.MonoBehaviour
     {

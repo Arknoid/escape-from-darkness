@@ -16,9 +16,9 @@ GameObject:
   - component: {fileID: 2356706453359720405}
   - component: {fileID: 2356706453359720404}
   - component: {fileID: 2356706453359720407}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: mini-monter
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -181,12 +181,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c727b701953d4059b5fd5418beae3a6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 40
+  _health: 20
+  _maxHealth: 100
   _animatorTriggerHit: hit
   _animatorTriggerExplode: die
   _soundHit: {fileID: 0}
   _soundExplode: {fileID: 0}
   _disableWhenDie: 1
+  _rebootGameOnDie: 0
+  _dieTimer: 1
 --- !u!114 &2356706453359720407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,7 +203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _targetTag: Player
-  _damage: 1
+  _damage: 2
   _speed: 0.5
+  _aggroDistance: 5
   _isFacingRight: 1
   _attackDelay: 1

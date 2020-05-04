@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5944257534013775814}
   - component: {fileID: 1212784897}
   - component: {fileID: 1212784904}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,11 +182,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: 4
+  _maxHealth: 100
   _animatorTriggerHit: hit
   _animatorTriggerExplode: die
   _soundHit: {fileID: 0}
   _soundExplode: {fileID: 0}
   _disableWhenDie: 1
+  _rebootGameOnDie: 0
+  _dieTimer: 1
 --- !u!114 &1212784904
 MonoBehaviour:
   m_ObjectHideFlags: 0

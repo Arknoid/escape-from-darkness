@@ -22,15 +22,20 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.21698111
       objectReference: {fileID: 0}
+    - target: {fileID: 2356706453359720404, guid: 204ad6db3c87c974eb2d0bd9e297dd07,
+        type: 3}
+      propertyPath: _health
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2356706453359720406, guid: 204ad6db3c87c974eb2d0bd9e297dd07,
         type: 3}
       propertyPath: m_Name
-      value: mini-monter (57)
+      value: mini-monter Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2356706453359720407, guid: 204ad6db3c87c974eb2d0bd9e297dd07,
         type: 3}
       propertyPath: _speed
-      value: 4
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 2356706453359720430, guid: 204ad6db3c87c974eb2d0bd9e297dd07,
         type: 3}

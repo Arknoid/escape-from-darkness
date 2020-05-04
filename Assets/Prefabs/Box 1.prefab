@@ -100,7 +100,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.16937876, y: -0.48696566}
+  m_Offset: {x: 0.14680767, y: -0.43429995}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -111,7 +111,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2899356, y: 0.9088316}
+  m_Size: {x: 1.3350778, y: 1.014163}
   m_EdgeRadius: 0
 --- !u!114 &6205927348151510589
 MonoBehaviour:
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c727b701953d4059b5fd5418beae3a6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 5
+  _health: 10
   _maxHealth: 100
   _animatorTriggerHit: hit
   _animatorTriggerExplode: explode
@@ -202,6 +202,16 @@ MonoBehaviour:
   - {fileID: 3140873016965513965, guid: b6129723f72dc9148ad45b4a8f28d11d, type: 3}
   - {fileID: 3140873016965513965, guid: b6129723f72dc9148ad45b4a8f28d11d, type: 3}
   - {fileID: 3140873016965513965, guid: b6129723f72dc9148ad45b4a8f28d11d, type: 3}
+  - {fileID: 6207999134975863594, guid: 2c507fcf0c11c1048b1265a76dbe3a18, type: 3}
+  - {fileID: 6207999134975863594, guid: 2c507fcf0c11c1048b1265a76dbe3a18, type: 3}
+  - {fileID: 6207999134975863594, guid: 2c507fcf0c11c1048b1265a76dbe3a18, type: 3}
+  - {fileID: 6207999134975863594, guid: 2c507fcf0c11c1048b1265a76dbe3a18, type: 3}
+  - {fileID: 6207999134975863594, guid: 2c507fcf0c11c1048b1265a76dbe3a18, type: 3}
+  - {fileID: 6207999134975863594, guid: 2c507fcf0c11c1048b1265a76dbe3a18, type: 3}
+  - {fileID: 6207999134975863594, guid: 2c507fcf0c11c1048b1265a76dbe3a18, type: 3}
+  - {fileID: 6207999134975863594, guid: 2c507fcf0c11c1048b1265a76dbe3a18, type: 3}
+  - {fileID: 6207999134975863594, guid: 2c507fcf0c11c1048b1265a76dbe3a18, type: 3}
+  - {fileID: 6207999134975863594, guid: 2c507fcf0c11c1048b1265a76dbe3a18, type: 3}
   ItemToLoot: {fileID: 0}
 --- !u!114 &1077955946894485623
 MonoBehaviour:
