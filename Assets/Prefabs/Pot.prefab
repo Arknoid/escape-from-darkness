@@ -180,8 +180,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56ec931bd8cf47348530f9a11d8ed15a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _chanceToLoot: 90
+  _chanceToLoot: 80
   _chanceItemToLoot:
+  - {fileID: 3140873016965513965, guid: b6129723f72dc9148ad45b4a8f28d11d, type: 3}
   - {fileID: 3140873016965513965, guid: b6129723f72dc9148ad45b4a8f28d11d, type: 3}
   - {fileID: 5944257534013775820, guid: 0369a639170dcf5478b943f11ea2cef5, type: 3}
   ItemToLoot: {fileID: 0}

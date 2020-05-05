@@ -1,6 +1,6 @@
-﻿using System;
+﻿
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using Core.Interfaces;
 using Patterns;
 using UnityEngine;
@@ -120,17 +120,32 @@ namespace Player
             yield return new WaitForSeconds(_jumpDelay);
             _canAttack = true;
         }
-        
-        private void OnCollisionEnter2D(Collision2D other)
+
+        private void OnCollisionStay2D(Collision2D other)
         {
-            
+            if (!_canAttack) return;
             var damageableObject = other.transform.GetComponent<IDamageable>();
             if (damageableObject == null) return;
             
             if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Jump"))
             {
                 damageableObject.TakeDamage(_playerInput.IsRunning ? _runJumpAttackDamage : _jumpAttackDamage);
+                _canAttack = false;
+                StartCoroutine(ResetCanAttack());
             }
+
         }
+
+        // private void OnCollisionEnter2D(Collision2D other)
+        // {
+        //     
+        //     var damageableObject = other.transform.GetComponent<IDamageable>();
+        //     if (damageableObject == null) return;
+        //     
+        //     if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Jump"))
+        //     {
+        //         damageableObject.TakeDamage(_playerInput.IsRunning ? _runJumpAttackDamage : _jumpAttackDamage);
+        //     }
+        // }
     }
 }

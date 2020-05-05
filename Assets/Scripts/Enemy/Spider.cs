@@ -29,7 +29,7 @@ namespace Enemy
 
         private IEnumerator ResetCanAttack()
         {
-            yield return  new WaitForSeconds(0.3f);
+            yield return  new WaitForSeconds(0.5f);
             _canAttack = true;
         }
         private void Update()

@@ -27,6 +27,7 @@ namespace Managers
         {
             _player = GameObject.FindGameObjectWithTag("Player");
             _playerHealth = _player.GetComponent<Health>();
+
         }
         
         
@@ -34,11 +35,13 @@ namespace Managers
         {
             _endPanel.gameObject.SetActive(false);
             _startPanel.gameObject.SetActive(true);
+            Time.timeScale = 0f;
         }
 
         public void CloseStartPanel()
         {
             _startPanel.gameObject.SetActive(false);
+            Time.timeScale = 1f;
         }
         
         public void ShowEndPanel()

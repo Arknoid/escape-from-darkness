@@ -30,6 +30,7 @@ namespace Objects
         {
             if (_isOpen)
             {
+                Time.timeScale = 0f;
                  _uiManager.ShowEndPanel();
             }
         }

@@ -19,6 +19,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4644523113532460279, guid: 0c52bdaf967307944ab96a787c0d4d78,
         type: 3}
+    - target: {fileID: 2356706453359720401, guid: 204ad6db3c87c974eb2d0bd9e297dd07,
+        type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2356706453359720402, guid: 204ad6db3c87c974eb2d0bd9e297dd07,
         type: 3}
       propertyPath: m_Enabled
@@ -57,7 +62,7 @@ PrefabInstance:
     - target: {fileID: 2356706453359720406, guid: 204ad6db3c87c974eb2d0bd9e297dd07,
         type: 3}
       propertyPath: m_Name
-      value: Monster (1)
+      value: Monster (7)
       objectReference: {fileID: 0}
     - target: {fileID: 2356706453359720406, guid: 204ad6db3c87c974eb2d0bd9e297dd07,
         type: 3}
@@ -92,12 +97,12 @@ PrefabInstance:
     - target: {fileID: 2356706453359720430, guid: 204ad6db3c87c974eb2d0bd9e297dd07,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 39.86
+      value: 3.84
       objectReference: {fileID: 0}
     - target: {fileID: 2356706453359720430, guid: 204ad6db3c87c974eb2d0bd9e297dd07,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 38.01
+      value: -22.63
       objectReference: {fileID: 0}
     - target: {fileID: 2356706453359720430, guid: 204ad6db3c87c974eb2d0bd9e297dd07,
         type: 3}
