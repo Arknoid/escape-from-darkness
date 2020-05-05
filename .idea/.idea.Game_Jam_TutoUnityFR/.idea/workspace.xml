@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4108b30-60ed-4714-88e6-42a6d1f9daf8" name="Default Changelist" comment="Bugs Fix and equilibrage">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/CanvasUI.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/CanvasUI.prefab.meta" afterDir="false" />
+    <list default="true" id="e4108b30-60ed-4714-88e6-42a6d1f9daf8" name="Default Changelist" comment="Bugs Fix">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Jam_TutoUnityFR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Barrel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Barrel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Box 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Box 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Monster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Monster.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/objects/RustySword-Item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/RustySword-Item.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/objects/Sword-Item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/Sword-Item.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/objects/Wood.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/Wood.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/objects/coin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/coin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/objects/gold_key.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/gold_key.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/objects/knif-Item.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/knif-Item.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/objects/potion_blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/potion_blue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/objects/potion_red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/potion_red.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/objects/silverKey.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/objects/silverKey.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Spider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Spider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/UiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/UiManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Objects/EndDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Objects/EndDoor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeaponsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerWeaponsManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +188,7 @@
       <workItem from="1588490031852" duration="18874000" />
       <workItem from="1588537141361" duration="533000" />
       <workItem from="1588619961450" duration="4033000" />
-      <workItem from="1588696697710" duration="5497000" />
+      <workItem from="1588696697710" duration="6198000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1588369913205</created>
@@ -336,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588629809462</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Bugs Fix">
+      <created>1588705534437</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1588705534437</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +359,8 @@
     <MESSAGE value="Added start and end panel" />
     <MESSAGE value="Added level1" />
     <MESSAGE value="Bugs Fix and equilibrage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bugs Fix and equilibrage" />
+    <MESSAGE value="Bugs Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugs Fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1459" y="163" key="SettingsEditor" timestamp="1588362243333">
@@ -383,10 +371,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588432913599" />
-    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2" timestamp="1588629811568">
+    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2" timestamp="1588705536903">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588629811568" />
+    <state x="-1368" y="242" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588705536903" />
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588704515525">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
