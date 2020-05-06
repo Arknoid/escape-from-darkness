@@ -8,12 +8,14 @@ namespace Enemy
     public class Spider : UnityEngine.MonoBehaviour
     {
         [SerializeField] private string _targetTag = "Player";
+        [SerializeField] private float _attackDelay = 1.5f;
+        
         private Rigidbody2D _rb;
         [SerializeField] private int _damage;
         [SerializeField] private float _speed = 2;
         private Animator _animator;
         private bool _isFacingRight = false;
-        private bool _canAttack = true;
+        private bool _canAttack = false;
         
         private GameObject _target;
         private void Awake()
@@ -25,11 +27,12 @@ namespace Enemy
         private void Start()
         {
             _target = GameObject.FindGameObjectWithTag(_targetTag);
+            StartCoroutine(ResetCanAttack());
         }
 
         private IEnumerator ResetCanAttack()
         {
-            yield return  new WaitForSeconds(0.5f);
+            yield return  new WaitForSeconds(_attackDelay);
             _canAttack = true;
         }
         private void Update()
